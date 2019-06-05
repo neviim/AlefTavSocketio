@@ -1,6 +1,6 @@
 alefTav Socketio  
 
-- preparando ambiente electron
+preparando ambiente electron
 
     $ mkdir alefTavSocketio
     $ cd alefTavSocketio
