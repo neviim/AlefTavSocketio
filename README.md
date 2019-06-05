@@ -2,9 +2,11 @@ alefTav Socketio
 
 - preparando ambiente electron
 
-    $ mkdir electron-socketio
-    $ cd electron-socketio
+    $ mkdir alefTavSocketio
+    $ cd alefTavSocketio
     
+    $ npm install
+
     $ npm add socket.io
     $ npm add express
 
