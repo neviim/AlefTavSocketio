@@ -4,8 +4,6 @@ preparando ambiente electron
 
     $ mkdir alefTavSocketio
     $ cd alefTavSocketio
-    
-    $ npm install
 
     $ npm add socket.io
     $ npm add express
