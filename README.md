@@ -9,4 +9,16 @@ preparando ambiente electron
     $ npm add express
 
     # executar
-    $ npm server.js
+    $ node server.js
+
+
+# altomatizando start do server.js
+
+    $ cd /deploy/alefTavSocketio
+    $ cp ./config/aleftav.service /usr/lib/systemd/system/aleftav.service
+
+    $ systemctl daemon-reload
+    $ systemctl start aleftav.service
+    $ systemctl status aleftav.service
+
+    $ systemctl enable aleftav.service
