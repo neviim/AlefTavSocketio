@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=/usr/bin/node /deploy/alefTavSocketio/server.js >> /var/log/aleftav/alefServer.log 2>&1
+ExecStart=/usr/bin/node /deploy/alefTavSocketio/server/server.js >> /var/log/aleftav/alefServer.log 2>&1
 
 [Install]
 WantedBy=multi-user.target
