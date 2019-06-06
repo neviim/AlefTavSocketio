@@ -106,5 +106,8 @@ venv.bak/
 # nodejs
 node_modules/
 
+# builds
+release-builds/
+
 # sftp
-.vscode/sftp.json
+.vscode/
